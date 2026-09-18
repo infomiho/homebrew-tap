@@ -5,7 +5,7 @@ cask "diktafon" do
   url "https://github.com/infomiho/diktafon/releases/download/v#{version}/diktafon-#{version}-macOS-arm64.dmg"
   name "diktafon"
   desc "Local-only dictation: hold a hotkey, speak, and polished text is pasted"
-  homepage "https://diktafon.miho.dev"
+  homepage "https://diktafon.miho.dev/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "diktafon" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "diktafon.app"
 
