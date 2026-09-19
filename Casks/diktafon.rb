@@ -18,13 +18,13 @@ cask "diktafon" do
 
   app "diktafon.app"
 
-  uninstall quit:       "com.infomiho.diktafon",
-            login_item: "diktafon"
+  uninstall quit: "com.infomiho.diktafon"
 
   zap trash: [
     "~/Library/Application Support/diktafon",
     "~/Library/Caches/com.infomiho.diktafon",
     "~/Library/HTTPStorages/com.infomiho.diktafon",
     "~/Library/Preferences/com.infomiho.diktafon.plist",
+    "~/Library/Saved Application State/com.infomiho.diktafon.savedState",
   ]
 end
