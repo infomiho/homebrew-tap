@@ -1,6 +1,6 @@
 cask "diktafon" do
-  version "0.1.2"
-  sha256 "78ddda8bbd3a46806ba7c87934919ddfc76cbc82f622ff2aea05968cd29c13e8"
+  version "0.2.0"
+  sha256 "e86592cb614334436b839b9e968bda89ce134a2afd1c7f5fd20e991fd342a413"
 
   url "https://github.com/infomiho/diktafon/releases/download/v#{version}/diktafon-#{version}-macOS-arm64.dmg"
   name "diktafon"
