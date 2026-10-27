@@ -1,6 +1,6 @@
 cask "snimach" do
-  version "0.1.2"
-  sha256 "1c13474b9dc84f07cb0ae0d28af0b4de47c8b2e309e278d37c294a0a5acb61aa"
+  version "0.1.3"
+  sha256 "15c81c4cfa9ce8815f864baaaa95e10c5039d65250668f5772f1b7ab2816dc60"
 
   url "https://github.com/infomiho/snimach/releases/download/v#{version}/Snimach-#{version}-macOS-arm64.dmg"
   name "Snimach"
